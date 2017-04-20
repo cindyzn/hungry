@@ -1,0 +1,260 @@
+
+  
+    *{
+    	margin:0;
+    	padding:0;
+    }
+    ul,li{
+    	list-style: none;
+    }
+    img{
+        border:none;
+    }
+    a{
+    	text-decoration: none;
+    	color:black;
+    }
+    html, body {
+        position: relative;
+        height: 100%;
+        overflow-x: hidden;
+    }
+    body{
+    	font-size:16px;
+    	background:rgba(0,0,0,0.05)
+    }
+    html{
+    	font-size:100px;
+    }
+    header{
+    	width:3.75rem;
+    	height:1.22rem;
+    	background:#0096ff;
+    	padding:10px;
+    	box-sizing: border-box;
+    }
+    header p{
+    	height:0.21rem;
+    	width:1.75rem;
+    	color:white;
+    	font-size:18px;
+    	
+    }
+    header p .iconfont{
+    	font-size:18px;
+    }
+    #search{
+    	height:0.32rem;
+    	width:3.47rem;
+    	border:none;
+    	margin:10px 0;
+    	border-radius: 15px;
+    	text-align: center;
+    	
+    }
+    #list{
+    	width:3.47rem;
+    	height:0.3rem;
+    }
+    #list .swiper-slide li{
+    	float:left;
+    }
+    #list .swiper-slide li a{
+    	color:white;
+    	font-size:0.12rem;
+    	padding:5px;
+    }
+    #list li a:hover{
+    	color:pink;
+    	
+    }
+    .swiper2{
+    	width:3.75rem;
+    	height:1.76rem;
+    	background: white;
+    }
+
+     .swiper2 .swiper-slide {
+        width:100%;
+    	height:100%;
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+    .bg{
+    	width:3.75rem;
+    	height:0.25rem;
+    	background:rgba(0,0,0,0.05);
+    	padding-top:0.15rem;
+    }
+    .title {
+    font-size: 0.16rem;
+   	background:white;
+   	line-height: 0.35rem;
+   	padding-left:20px;
+   	
+   	
+   	
+}
+.body{
+    	width:3.75rem;
+    	background:white;
+    	height:4.76rem;
+    	overflow-y: auto;
+    	box-sizing: border-box;
+    	
+    }
+.box{
+		width:3.75rem;
+		height:0.9rem;
+		border-bottom: 1px solid lightgray;
+		box-sizing: border-box;
+		padding: 15px 10px;
+		background:white;
+}
+.box-left{
+		float:left;
+		width:0.6rem;
+	height:0.6rem;
+}
+.box-left img{
+	width:0.6rem;
+	height:0.6rem;
+}
+.box-cen{
+	float:left;
+	width:1.9rem;
+	height:0.6rem;
+	box-sizing: border-box;
+	margin-left:10px;
+	
+}
+.box-cen .pp{
+	float:left;
+	width:0.27rem;
+	height:0.18rem;
+	background:yellow;
+	line-height:0.18rem;
+	font-size:0.12rem;
+	text-align: center;
+	border-radius: 2px;
+	
+}
+.shopName{
+	float:left;
+	width:1.5rem;
+	height:0.18rem;
+	text-align: center;
+	line-height: 0.18rem;
+	font-size:0.15rem;
+	padding-left:0.1rem;
+}
+.shopName a:hover{
+	color:pink;
+}
+.num{
+	font-size:0.12rem;
+	color:red;
+	
+}
+.star{
+	font-size: 0.10rem;
+	color:yellow;
+	
+}
+.sale{
+	font-size:0.12rem;
+}
+.size{
+	font-size:0.12rem;
+	
+}
+.box-right{
+	float:right;
+	width:0.95rem;
+	height:0.6rem;
+	box-sizing: border-box;
+	
+}
+.box-right-top{
+	padding-left:0.38rem;
+	margin-top:-0.01rem;
+}
+.box-right-top span{
+	font-size:0.12rem;
+	display: inline-block;
+	border:1px solid gray;
+	color:gray;
+	border-radius: 2px;
+	margin-bottom:0.04rem;
+	margin-left:0.04rem;
+}
+.time{
+	color:#0096ff;
+	float:left;
+	border:1px solid #0096ff;
+	font-size: 0.12rem;
+	line-height: 0.14rem;
+	border-radius: 2px;
+	
+}
+.song{
+	color:white;
+	float:right;
+	background:#0096ff;
+	font-size: 0.12rem;
+	line-height: 0.16rem;
+	border-radius: 2px;
+	
+}
+.m{
+	color:#0096ff;
+}
+footer{
+    	width:3.75rem;
+    	height:0.75rem;
+    	background:white;
+    	box-sizing: border-box;
+    	padding-top:0.18rem;
+    	border-top:1px solid gray;
+    }
+    .footer{
+	    display: flex;
+	    justify-content: space-around;
+	    align-items: center;
+	}
+	
+	.footer a i {
+	    font-size:0.25rem;
+	    color:lightgray;
+	}
+	.footer a span {
+	   display: block;
+	   text-align: center;
+	   line-height: 0.2rem;
+	   color: lightgray;
+	}
+	.footer a:hover span{
+		color:#0096ff;
+	}
+	.footer a:hover i{
+		color:#0096ff;
+	}
+
+	
+	
+    

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="css/style1.css">
+    <link rel="stylesheet" href="swiper/swiper.min.css">
+    <link rel="stylesheet" type="text/css" href="font/iconfont.css">
+    
+</head>
+<body>
+	<header>
+		<p><i class="iconfont icon-map"></i>&nbsp;&nbsp;</i>西安市雁塔区高新</p>
+		<input type="text" name="search" id="search" value="" placeholder="搜索商家/商品"/>
+		<!--<ul id='list'>
+			<li><a href="#">低调高手</a></li>
+			<li><a href="#">炒饭</a></li>
+			<li><a href="#">大鼓米饭</a></li>
+			<li><a href="#">凉皮</a></li>
+			<li><a href="#">肉夹馍</a></li>
+			<li><a href="#">胡辣汤</a></li>
+			<li><a href="#">羊肉泡馍</a></li>
+		</ul>-->
+		<!--可以滑动的header-->
+		<ul class="swiper-container" id="list">
+	        <div class="swiper-wrapper">
+	            <div class="swiper-slide">
+	            	<li><a href="#">低调高手</a></li>
+					<li><a href="#">炒饭</a></li>
+					<li><a href="#">大鼓米饭</a></li>
+					<li><a href="#">凉皮</a></li>
+					<li><a href="#">肉夹馍</a></li>
+					<li><a href="#">胡辣汤</a></li>
+					<li><a href="#">羊肉。。。</a></li>
+	            </div>
+	            <div class="swiper-slide">
+	            	<li><a href="#">羊肉泡馍</a></li>
+					<li><a href="#">酸辣粉</a></li>
+					<li><a href="#">过桥米线</a></li>
+					<li><a href="#">黄焖鸡</a></li>
+					<li><a href="#">羊血饸络</a></li>
+					<li><a href="#">饺子</a></li>
+					<li><a href="#">稀饭</a></li>
+					
+	            </div>
+	        </div>
+	    </ul>
+	</header>
+	<section class='body'>
+		<!--輪播圖-->
+		<div class="swiper-container swiper2">
+	        <div class="swiper-wrapper">
+	            <div class="swiper-slide">
+	            	<img src="img/img1.jpg" /> 
+	            </div>
+	            <div class="swiper-slide">
+	            	<img src="img/img2.jpg" /> 
+	            </div>
+	        </div>
+	        <!-- 按钮 -->
+	        <div class="swiper-pagination"></div>
+	    </div>
+	    
+	    <!--动态添加，ajax获取数据-->
+    	<div class='bg' id='bg'>
+    		<h3 class="title">推荐商家</h3>
+    	</div>
+    	
+    </section>
+    <footer>
+    	<div class="footer">
+            <a href="#">
+            	<i class="iconfont icon-waimai"></i>
+            	<span>外卖</span>
+            </a>
+            <a href="#">
+            	<i class="iconfont icon-faxian"></i>
+            	<span>发现</span>
+            </a>
+            <a href="#">
+            	<i class="iconfont icon-dingdan"></i><span>订单</span>
+            </a>
+           <a href="#"> 
+	           	<i class="iconfont icon-wode"></i>
+	           	<span>我的</span>
+           </a>
+        </div>
+    </footer>
+    		
+    <!-- Swiper JS -->
+    <script type="text/javascript" src="js/common.js" ></script>
+    <script src="swiper/swiper.min.js"></script>
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/goods.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        paginationClickable: true
+    });
+    console.log(location.href)
+	
+    </script>
+
+</body>
+</html>
+

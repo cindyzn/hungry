@@ -1,0 +1,35 @@
+[
+	{
+		"userId":"01001",
+		"userName":"匿名用户",
+		"userImg":"<img src='img/c.bmp' /><img src='img/pingjia.jpg' />",
+		"userData":"2017-03-31" ,
+		"userFoods":"<span>酸辣粉。。。</span><span>过桥米线</span>",
+		"userStar":"<i class='iconfont icon-star'></i><i class='iconfont icon-star'></i><i class='iconfont icon-star'></i><i class='iconfont icon-star'></i><i class='iconfont icon-star'></i>"
+	},
+	{
+		"userId":"01002",
+		"userName":"白垚",
+		"userImg":"<img src='img/a.bmp'/>",
+		"userData":"2017-03-21" ,
+		"userFoods":"<span>黄焖鸡</span><span>炒菜</span>",
+		"userStar":"<i class='iconfont icon-star'></i><i class='iconfont icon-star'></i><i class='iconfont icon-star'></i><i class='iconfont icon-star'></i>"
+	},
+	{
+		"userId":"01003",
+		"userName":"小怪兽",
+		"userImg":"非常好吃,骑手人非常有耐心，卖家人很好，棒棒哒！！！",
+		"userData":"2017-03-22" ,
+		"userFoods":"<span>米线</span>",
+		"userStar":"<i class='iconfont icon-star'></i><i class='iconfont icon-star'></i><i class='iconfont icon-star'></i><i class='iconfont icon-star'></i>"
+	},
+	{
+		"userId":"01004",
+		"userName":"小溪夕",
+		"userImg":"<img src='img/pingjia.jpg' />",
+		"userData":"2017-03-26" ,
+		"userFoods":"<span>肉丸胡辣汤</span><span>肉夹馍</span>",
+		"userStar":"<i class='iconfont icon-star'></i><i class='iconfont icon-star'></i>"
+	}
+	
+]

@@ -1,0 +1,59 @@
+[
+	{
+		"goodsId":"01001",
+		"goodsName":"小杨生煎(宁波路餐厅)",
+		"goodsImg":"img/boximg1.bmp",
+		"goodsSale":"1362" ,
+		"goodsSong":"40",
+		"songPrice":"5",
+		"goodsCount":"4.8",
+		"goodsMeter":"1.38km",
+		"goodsMin":"26分钟",
+		"goodsStar":"<i class='iconfont icon-star'></i><i class='iconfont icon-star'></i>"
+		
+		
+	},
+	{
+		"goodsId":"01002",
+		"goodsName":"过桥米线(南窑头)",
+		"goodsImg":"img/boximg4.bmp",
+		"goodsSale":"3362" ,
+		"goodsSong":"26",
+		"songPrice":"3.5",
+		"goodsCount":"4.9",
+		"goodsMeter":"1.98km",
+		"goodsMin":"46分钟",
+		"goodsStar":"<i class='iconfont icon-star'></i><i class='iconfont icon-star'></i><i class='iconfont icon-star'></i><i class='iconfont icon-star'></i><i class='iconfont icon-star'></i>"
+		},
+	{
+		"goodsId":"01003",
+		"goodsName":"秦皇鸡(南京西路店)",
+		"goodsImg":"img/boximg2.bmp",
+		"goodsSale":"1762" ,
+		"goodsSong":"30",
+		"songPrice":"5.5",
+		"goodsCount":"4.6",
+		"goodsMeter":"1.68km",
+		"goodsMin":"66分钟",
+		"goodsStar":"<i class='iconfont icon-star'><i class='iconfont icon-star'></i><i class='iconfont icon-star'></i></i>"
+		
+		
+	},
+	{
+		"goodsId":"01004",
+		"goodsName":"避风港(高新路餐厅)",
+		"goodsImg":"img/boximg3.bmp",
+		"goodsSale":"2362" ,
+		"goodsSong":"200",
+		"songPrice":"16",
+		"goodsCount":"4.7",
+		"goodsMeter":"3.38km",
+		"goodsMin":"120分钟",
+		"goodsStar":"<i class='iconfont icon-star'><i class='iconfont icon-star'></i></i>"
+		
+		
+	}
+	
+	
+	
+]

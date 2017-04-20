@@ -1,0 +1,136 @@
+
+  
+    *{
+    	margin:0;
+    	padding:0;
+    }
+    ul,li{
+    	list-style: none;
+    }
+    img{
+        border:none;
+    }
+    a{
+    	text-decoration: none;
+    	color:black;
+    }
+    html, body {
+        position: relative;
+        height: 100%;
+    }
+    body{
+    	font-size:16px;
+    	background:rgba(0,0,0,0.05)
+    }
+    html{
+    	font-size:100px;
+    }
+    header{
+    	width:3.75rem;
+    	height:0.4rem;
+    	background:#0096ff;
+    }
+    header h3{
+    	text-align: center;
+    	color:white;
+    	line-height:0.4rem;
+    	
+    }
+    section{
+    	width:3.75rem;
+    	box-sizing: border-box;
+    }  
+    .top{
+    	background:white;
+    	height:2.1rem;
+    	width:3.75rem;
+    	margin-top:0.1rem;
+    	box-sizing: border-box;
+    }
+    .top h4{
+    	line-height:0.38rem;
+    	font-size:0.14rem;
+    	border-bottom:1px solid lightgray;
+    	padding-left:0.1rem;
+    
+    }
+    .top p{
+    	padding-left:0.1rem;
+    }
+    .top .size{
+    	display:inline-block;
+    	width:0.16rem;
+    	height:0.2rem;
+    	border-radius:2px;
+    	line-height:0.2rem;
+    	font-size:0.1rem;
+    	color:white;
+    	text-align: center;
+    }
+    .wz{
+    	font-size:0.14rem;
+    	line-height: 0.35rem;
+    }
+     .cen{
+    	background:white;
+    	height:1.2rem;
+    	width:3.75rem;
+    	margin-top:0.1rem;
+    	box-sizing: border-box;
+    }
+    .cen h4{
+    	line-height:0.38rem;
+    	font-size:0.14rem;
+    	border-bottom:1px solid lightgray;
+    	padding-left:0.1rem;
+    	
+    
+    }
+    .cen .span1{
+    	float:left;
+    }
+     .cen .span2{
+    	float:right;
+    	padding-right:0.4rem;
+    	color:gray;
+    }
+    .cen p{
+    	height:1.2rem;
+    	margin-left:1rem;
+    	margin-top:0.15rem;
+    	
+    }
+    .cen p span{
+    	display:block;
+    	font-size:0.12rem;
+    	line-height: 0.2rem;
+    	
+    	
+    }
+		.cen i{
+			width:0.5rem;
+			height:0.5rem;
+			font-size: 0.5rem;
+			float:left;
+			color: yellow;
+			padding-left:0.3rem;
+			line-height: 0.8rem;
+		}
+aside{
+			width:3.75rem;
+			height:2.68rem;
+			background: white;
+			margin-top:0.1rem;
+    	box-sizing: border-box;
+    	padding-left:0.1rem;
+    	font-size:0.14rem;
+    	color:gray;
+}
+aside p{
+	line-height: 0.45rem;
+	border-bottom: 1px solid lightgray;
+}
+aside h4{
+	line-height: 0.38rem;
+	border-bottom: 1px solid lightgray;
+}
